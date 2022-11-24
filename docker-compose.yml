@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  mysql:
+    container_name: Mysql-fractal
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: db_fractal
+      MYSQL_PASSWORD: 123eqwe233_wqrr123
+      MYSQL_ROOT_PASSWORD: root123123
+      
